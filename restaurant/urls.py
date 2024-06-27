@@ -7,4 +7,4 @@ urlpatterns = [
     path('menu/items', views.MenuItemListView.as_view()),
     path('restaurant/menu/items/create/', views.MenuItemCreateView.as_view()),
     path('menu/<int:pk>', views.SingleMenuItemView.as_view()),
-]
+]  
